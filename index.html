@@ -1,196 +1,284 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Temario PE</title>
-  </head>
-  <body>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Probabilidad y Estadística</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Probabilidad y Estadística</h1>
+    <nav>
+      <ul>
+        <li><a href="#estadistica-descriptiva">Estadística Descriptiva</a></li>
+        <li><a href="#fundamentos-probabilidad">Fundamentos de la Teoría de Probabilidad</a></li>
+        <li><a href="#variables-aleatorias">Variables Aleatorias</a></li>
+        <li><a href="#distribuciones-probabilidad">Distribuciones de Probabilidad</a></li>
+        <li><a href="#regresion-lineal">Regresión Lineal</a></li>
+        <li><a href="#estadistica-aplicada">Estadística Aplicada</a></li>
+      </ul>
+    </nav>
 
-    <h1>Tema 1 Estadística descriptiva.</h1>
+  </header>
+  
+  <main>
 
-        <h2>1.1 Estadística</h2>
-
-        <p>Disiplina que proporciona el conjunto de técnicas para la recolección, 
-            organización, análisis e interpretación de datos, para inferir una 
-            población o comportamiento de un fenomeno.</p>
-        
-            <h3>Teoría de decisión</h3>
-            <p>Área interdisciplinaria de estudio, relacionada con casi todos los 
-                participantes en ramas de la ciencia, ingeniería</p>
+    <section id="estadistica-descriptiva">
+       
+      <h2>Estadística Descriptiva</h2>
+      
+        <h3>1.1 Estadística</h3>
+            <p>
+                Disiplina que proporciona el conjunto de técnicas para la recolección, 
+                organización, análisis e interpretación de datos, para inferir una 
+                población o comportamiento de un fenomeno.
+            </p>
             
-            <h3>Población</h3>
-            <p>Conjunto de elementos que presentan una característica común</p>
+            <h4>Teoría de decisión</h4>
+                <p>
+                    Área interdisciplinaria de estudio, relacionada con casi todos los 
+                    participantes en ramas de la ciencia, ingeniería.
+                </p>
+                
+            <h4>Población</h4>
+                <p>
+                    Conjunto de elementos que presentan una característica común.
+                </p>
             
-            <h3>Muestra aleatoria</h3>
-            <p>Es una muestra sacada de una población de unidades, de manera que todo 
-                elemento de la población tenga la misma probabilidad de selección</p>
+            <h4>Muestra aleatoria</h4>
+                <p>
+                    Es una muestra sacada de una población de unidades, de manera que todo 
+                    elemento de la población tenga la misma probabilidad de selección.
+                </p>
             
-            <h3>Parámetros aleatorios</h3>
-            <p>Son aquellos que toma diversos valores o conjuntos de valores con distintas 
-                probabilidades.Existen 2 características importantes de una variable aleatoria, sus valores y las probabilidades asociadas a esosvalores</p>
+            <h4>Parámetros aleatorios</h4>
+                <p>
+                    Son aquellos que toma diversos valores o conjuntos de valores con distintas 
+                    probabilidades.Existen 2 características importantes de una variable aleatoria, sus valores y las probabilidades asociadas a esosvalores.
+                </p>
+
+
+        <h3>1.2 Descripción de datos</h3>
             
+            <h4>Datos agrupados y no agrupados</h4>
+                <p>
+                    Los datos agrupados son como lo indica su nombre, una cantidad dada de datos que puede clasificarse, ya sea por sus cualidades cualitativas o 
+                    cuantitativas, y por tal agruparse para su análisis.
+                </p>
+                <p>
+                    Los datos no agrupados son el conjunto de datos que no se ha clasificado y se es presentada en su forma de aparición en una tabla de datos donde 
+                    cada valor se representa de forma individual. Por lo general este conjunto comprende una cantidad de elementos menor a 30 (n menor a 30) con 
+                    poca o nula repetición.
+                </p>
+    
+            <h4>Frecuencia de clase</h4>
+                <p>
+                    Marca de clase (punto medio): punto que divide a la clase en dos partes iguales. Es el promedio entre los límites superior e inferior de la clase.
+    
+                    Intervalo de clase: para una distribución de frecuencias que tiene clases del mismo tamaño, el intervalo de clase se obtiene restando el límite 
+                    inferior de una clase del límite inferior de la siguiente.
+                </p>
+    
+            <h4>Frecuencia relativa</h4>
+                <p>
+                    Es la relación o cociente entre la frecuencia absoluta y el número total de observaciones. Es la proporción entre la frecuencia de un intervalo 
+                    y el número total de datos.
+                </p>
+    
+            <h4>Punto medio</h4>
+                <p>
+                    Punto medio es el punto que divide a un segmento en dos partes iguales.
+    
+                    El punto medio de un segmento, es único y equidista de los extremos del segmento. Cumpliendo esta última condición, pertenece a la mediatriz 
+                    del segmento.
+                </p>
+    
+            <h4>Límites</h4>
+                <p>
+                    Son los valores extremos que tiene el intervalo de clase, inferior y superior, entre los cuales van a estar los valores de los datos agrupados 
+                    en ese intervalo de clase.
+                </p>    
         
-        
-        
-        
-        <h2>1.2 Descripción de datos</h2>
-        
-            <h3>Datos agrupados y no agrupados</h3>
-            <p>Los datos agrupados son como lo indica su nombre, una cantidad dada de datos que puede clasificarse, ya sea por sus cualidades cualitativas o 
-                cuantitativas, y por tal agruparse para su análisis.</p>
-            <p>Los datos no agrupados son el conjunto de datos que no se ha clasificado y se es presentada en su forma de aparición en una tabla de datos donde 
-                cada valor se representa de forma individual. Por lo general este conjunto comprende una cantidad de elementos menor a 30 (n menor a 30) con 
-                poca o nula repetición.</p>
+                
+        <h3>1.3 Medidas de tendencia central</h3>
 
-            <h3>Frecuencia de clase</h3>
-            <p>Marca de clase (punto medio): punto que divide a la clase en dos partes iguales. Es el promedio entre los límites superior e inferior de la clase.
+            <h4>Media aritmética</h4>
+                <p>
 
-                Intervalo de clase: para una distribución de frecuencias que tiene clases del mismo tamaño, el intervalo de clase se obtiene restando el límite 
-                inferior de una clase del límite inferior de la siguiente.</p>
+                </p>
+    
+            <h4>Geométrica y ponderada</h4>
+                <p>
 
-            <h3>Frecuencia relativa</h3>
-            <p>Es la relación o cociente entre la frecuencia absoluta y el número total de observaciones. Es la proporción entre la frecuencia de un intervalo 
-                y el número total de datos.</p>
+                </p>
+    
+            <h4>Mediana</h4>
+                <p>
+                    Es el valor de la variable que divide a la distribución de frecuencias en dos partes iguales.
+                    Para hallar la mediana ordenamos la frecuencias de mayor a menor o viceversa, y si hay un número impar de valores la mediana es el central y 
+                    si es par será la semisuma de los dos valores.
+                </p>
+    
+            <h4>Moda</h4>
+                <p>
+                    En Estadística, la moda es el valor que cuenta con una mayor frecuencia en una distribución de datos.
+                </p>
+    
+            <h4>Medidas de dispersión</h4>
+                <p>
+                    Indican qué tanto se dispersan o agrupan los datos con respecto a su media aritmética. El rango es una medida de dispersión que para una serie 
+                    de datos no agrupados, es igual a la diferencia del dato mayor y el dato menor.
+                </p>
+    
+            <h4>Varianza</h4>
+                <p>
+                    Medida de dispersión que representa la variabilidad de una serie de datos con respecto a su media. Formalmente, se calcula como la suma de los 
+                    cuadrados de los residuos dividida por las observaciones totales.
+                </p>
+    
+            <h4>Desviación estándar</h4>
+                <p>
+                    Es una de las principales medidas estadísticas que intervienen en el cálculo de la muestra de una investigación, y también es una medida de 
+                    riesgo que utilizan los analistas, los gestores de carteras y los asesores.
+                </p>
+    
+            <h4>Desviación media</h4>
+                <p>
+                    Es una medida importante de dispersión que nos permite entender cuánto varían los datos de un conjunto promedio. 
+    
+                    La desviación es una herramienta fundamental para analizar y comprender conjuntos de datos en diversas disciplinas, como la economía, 
+                    la psicología, la medicina y muchas otras.
+                </p>
+    
+            <h4>Desviación mediana</h4>
+                <p>
 
-            <h3>Punto medio</h3>
-            <p>Punto medio es el punto que divide a un segmento en dos partes iguales.
+                </p>
+    
+            <h4>Rango</h4>
+                <p>
+                    Es la primera medida que vamos a estudiar, se define como la diferencia existente entre el valor mayor y el menor de la distribución,. 
+                    Lo notaremos como R. Realmente no es una medida muy significativa e la mayoría de los casos, pero indudablemente es muy 
+                    fácil de calcular.
+                </p>
 
-                El punto medio de un segmento, es único y equidista de los extremos del segmento. Cumpliendo esta última condición, pertenece a la mediatriz 
-                del segmento.</p>
+        <h3>1.4. Los parámetros son</h3>
+                <li>
+                    Frecuencia: muestra la cantidad de veces que se repite un valor en el conjunto de datos.
+                </li>
+                <li>
+                    Punto medio del intervalo: se considera si los datos están en forma de intervalo.
+                </li>
+                <li>
+                    Clase de la marca: es el valor que toma cada intervalo permisible para representar los valores entre el intervalo.
+                </li>
+                <li>
+                    Amplitud del intervalo: se trata de la diferencia entre el valor máximo y mínimo de cada intervalo.
+                </li>
+                <li>
+                    Límite del intervalo: son los valores límites de máxima y mínima del intervalo.
+                </li>
 
-            <h3>Límites</h3>
-            <p>Son los valores extremos que tiene el intervalo de clase, inferior y superior, entre los cuales van a estar los valores de los datos agrupados 
-                en ese intervalo de clase.</p>
+        <h3>1.5. Distribución de frecuencias</h3>
+                <p>
+                    La distribución de frecuencia es una representación gráfica que muestra la relación de un conjunto exhaustivo y mutuamente exclusivo y la frecuencia de cada uno.
+                </p>
 
+        <h3>1.6 Técnicas de agrupación de datos</h3>
+                <p>
+                    En la forma de distribución tabular, los datos estadísticos se ordenan como clases con la frecuencia de cada clase; se combinan los datos reales de varios valores consecutivos del conjunto en un intervalo de clase.
+                </p>
 
+        <h3>1.7. Técnicas de muestreo</h3>
+                <li>
+                    Muestreo no probabilístico.
+                </li>
+                <li>
+                    Muestreo aleatorio.
+                </li>
+                <li>
+                    Muestreo por conglomerados.
+                </li>
+                <li>
+                    Muestreo estratificado.
+                </li>
+                <li>
+                    Muestreo probabilístico.
+                </li>
+      <!-- Aquí se agregará el contenido de los subtemas de Estadística Descriptiva -->
+    </section>
 
-
-        <h2>1.3 Medidas de tendencia central</h2>
-
-            <h3>Media aritmética</h3>
-            <p></p>
-
-            <h3>Geométrica y ponderada</h3>
-            <p></p>
-
-            <h3>Mediana</h3>
-            <p>Es el valor de la variable que divide a la distribución de frecuencias en dos partes iguales.
-                Para hallar la mediana ordenamos la frecuencias de mayor a menor o viceversa, y si hay un número impar de valores la mediana es el central y 
-                si es par será la semisuma de los dos valores.</p>
-
-            <h3>Moda</h3>
-            <p>En Estadística, la moda es el valor que cuenta con una mayor frecuencia en una distribución de datos.</p>
-
-            <h3>Medidas de dispersión</h3>
-            <p>Indican qué tanto se dispersan o agrupan los datos con respecto a su media aritmética. El rango es una medida de dispersión que para una serie 
-                de datos no agrupados, es igual a la diferencia del dato mayor y el dato menor.</p>
-
-            <h3>Varianza</h3>
-            <p>Medida de dispersión que representa la variabilidad de una serie de datos con respecto a su media. Formalmente, se calcula como la suma de los 
-                cuadrados de los residuos dividida por las observaciones totales.</p>
-
-            <h3>Desviación estándar</h3>
-            <p>Es una de las principales medidas estadísticas que intervienen en el cálculo de la muestra de una investigación, y también es una medida de 
-                riesgo que utilizan los analistas, los gestores de carteras y los asesores.</p>
-
-            <h3>Desviación media</h3>
-            <p>Es una medida importante de dispersión que nos permite entender cuánto varían los datos de un conjunto promedio. 
-
-                La desviación es una herramienta fundamental para analizar y comprender conjuntos de datos en diversas disciplinas, como la economía, 
-                la psicología, la medicina y muchas otras.</p>
-
-            <h3>Desviación mediana</h3>
-            <p>.</p>
-
-            <h3>Rango</h3>
-            <p>Es la primera medida que vamos a estudiar, se define como la diferencia existente entre el valor mayor y el menor de la distribución,. 
-                Lo notaremos como R. Realmente no es una medida muy significativa e la mayoría de los casos, pero indudablemente es muy 
-                fácil de calcular.</p>
-
-
-
-
-        <h2>1.4 Parámetros para datos agrupados</h2>
-        <p>Los parametros son:
-            Frecuencia: Este parámetro indica la cantidad de veces que se repite un determinado valor en el conjunto de datos.
-            Punto medio del intervalo: Este parámetro se utiliza cuando los datos se presentan en forma de intervalos.
-            Marca de clases: Valor que se le asigna a cada intervalo para representar los valores que caen dentro de dicho intervalo.
-            Amplitud del intervalo: La amplitud del intervalo es la diferencia entre el valor más alto y el valor más bajo de 
-            cada intervalo. 
-            Límites de intervalo: Valores maximos y minimos de cada intervalo.
-        </p>
-
-        <h2>1.5 Distribución de frecuencias</h2>
-        <p>Una distribución de frecuencias es una representación de la relación entre un conjunto de medidas exhaustivas y mutuamente 
-            influyentes y la frecuencia de cada una de ellas.</p>
-
-        <h2>1.6 Técnicas de agrupación de datos</h2>
-        <p>Es aquella distribución en la distribución tabular de los datos estadísticos se encuentran ordenados en clases y con la 
-            frecuencia de cada clase; es decir, los datos originales de varios valores adyacentes del conjunto se combinan para formar 
-            un intervalo de clases.</p>
-
-        <h2>1.7 Técnicas de muestreo.</h2>
-        <p>Muestreo no probabilístico.
-            Muestreo aleatorio.
-            Muestreo por conglomerados.
-            Muestreo estratificado.
-            Muestreo probabilístico.</p>
-
-  </body>
-
-  <body>
-    <h1>Tema 2 Fundamentos de la Teoría de Probabilidad.</h1>
-
-        <h2>2.1 Técnicas de Conteo</h2>
-        <p>Serie de métodos de probabilidad para contar el número posible de arreglos dentro de un conjunto o varios conjuntos de objetos.</p>
-
-            <h3>2.1.1 Principio aditivo.</h3>
-            <p>Técnica de conteo en probabilidad que permite medir de cuántas maneras se puede realizar una actividad que, a su vez, tiene varias 
-            alternativas para ser realizada, de las cuales se puede elegir solo una a la vez.</p>
-
-            <h3>2.1.2 Principio multiplicativo. </h3>
-            <p>Hay dos reglas de la multiplicación, la regla especial y la regla general.
-                La regla especial de la multiplicación requiere que dos eventos, A y B, sean independientes.
-                <li>P (A y B) P(A)P(B)</li>
-                La regla general de la multiplicación sirve para determinar la probabilidad conjunta de dos eventos cuando éstos no son independientes. 
-                Por ejemplo, cuando el evento B ocurre después del evento A, y A influye en la probabilidad de que el evento B suceda, entonces A y B 
-                no son independientes.
-                <li>P(A y B)  P(A)P(B|A)</li>
+    <section id="fundamentos-probabilidad">
+      <h2>Fundamentos de la Teoría de Probabilidad</h2>
+        <h3>2.1 Técnicas de Conteo</h3>
+            <p>
+                Serie de métodos de probabilidad para contar el número posible de arreglos dentro de un conjunto o varios conjuntos de objetos.
             </p>
 
-            <h3>2.1.3 Notación Factorial. </h3>
-            <p>El factorial de un de un entero positivo n, el factorial n o n se define en principio el producto de todos los números enteros positivos desde 
-                1 (es decir, los números naturales) hasta n. Cuando tienes una factorial, multiplica todos los enteros positivos menores o iguales que el 
-                número dado.</p>
+            <h4>2.1.1 Principio aditivo.</h4>
+                <p>
+                    Técnica de conteo en probabilidad que permite medir de cuántas maneras se puede realizar una actividad que, a su vez, tiene varias 
+                    alternativas para ser realizada, de las cuales se puede elegir solo una a la vez.
+                </p>
 
-            <h3>2.1.4 Permutaciones. </h3>
-            <p>Genéricamente, permutar es: “variar la disposición u orden en que estaban dos o más cosas”. Es necesario precisar si estas cosas son o no 
-                indistinguibles, para asegurar que la nueva configuración sea en esencia distinta a la antigua.</p>
-                
-            <h3>2.1.5 Combinaciones. </h3>
-            <p>Es todo arreglo de elementos en donde no interesa el lugar o posicion que ocupa cada uno de los elementos 
-                que construyeros dicho arreglo.</p>
+            <h4>2.1.2 Principio multiplicativo. </h4>
+                <p>
+                    Hay dos reglas de la multiplicación, la regla especial y la regla general.
+                    La regla especial de la multiplicación requiere que dos eventos, A y B, sean independientes.
+                    <li>P (A y B) P(A)P(B)</li>
+                    La regla general de la multiplicación sirve para determinar la probabilidad conjunta de dos eventos cuando éstos no son independientes. 
+                    Por ejemplo, cuando el evento B ocurre después del evento A, y A influye en la probabilidad de que el evento B suceda, entonces A y B 
+                    no son independientes.
+                    <li>P(A y B)  P(A)P(B|A)</li>
+                </p>
 
-            <h3>2.1.6 Diagrama de Árbol. </h3>
-            <p>Los diagramas de árbol se utilizan generalmente para identificar todas las tareas necesarias para implantar una solución. Se trata pues de un 
-                método orientado al despliegue de objetivos. 
-                Un diagrama de árbol es una representación gráfica de un experimento que consta de r pasos, donde cada uno de los pasos tiene un número finito
-                de maneras de ser llevado a cabo. </p>
+            <h4>2.1.3 Notación Factorial. </h4>
+                <p>
+                    El factorial de un de un entero positivo n, el factorial n o n se define en principio el producto de todos los números enteros positivos desde 
+                    1 (es decir, los números naturales) hasta n. Cuando tienes una factorial, multiplica todos los enteros positivos menores o iguales que el 
+                    número dado.
+                </p>
 
-            <h3>2.1.7 Teorema del Binomio. </h3>
-            <p>El teorema del binomio, también llamado binomio de  Newton, expresa la enésima  potencia de un binomio como un polinomio. El desarrollo del binomio  
-               ( a + b)^n posee singular importancia ya que aparece con mucha frecuencia en Matemáticas y posee diversas aplicaciones en otras áreas del conocimiento.</p>
+            <h4>2.1.4 Permutaciones. </h4>
+                <p>
+                    Genéricamente, permutar es: “variar la disposición u orden en que estaban dos o más cosas”. Es necesario precisar si estas cosas son o no 
+                    indistinguibles, para asegurar que la nueva configuración sea en esencia distinta a la antigua.
+                </p>
+                    
+            <h4>2.1.5 Combinaciones. </h4>
+                <p>
+                    Es todo arreglo de elementos en donde no interesa el lugar o posicion que ocupa cada uno de los elementos 
+                    que construyeros dicho arreglo.
+                </p>
 
-        <h2>2.2 Teoría elemental de probabilidad. </h2>
-        <p>asignar un cierto número a cada posible resultado que pueda ocurrir en un experimento aleatorio, con el fin de cuantificar dichos resultados y saber si un suceso
-           es más probable que otro.
-        </p>
+            <h4>2.1.6 Diagrama de Árbol. </h4>
+                <p>
+                    Los diagramas de árbol se utilizan generalmente para identificar todas las tareas necesarias para implantar una solución. Se trata pues de un 
+                    método orientado al despliegue de objetivos. 
+                    Un diagrama de árbol es una representación gráfica de un experimento que consta de r pasos, donde cada uno de los pasos tiene un número finito
+                    de maneras de ser llevado a cabo. 
+                </p>
+
+            <h4>2.1.7 Teorema del Binomio. </h4>
+                <p>
+                    El teorema del binomio, también llamado binomio de  Newton, expresa la enésima  potencia de un binomio como un polinomio. El desarrollo del binomio  
+                    ( a + b)^n posee singular importancia ya que aparece con mucha frecuencia en Matemáticas y posee diversas aplicaciones en otras áreas del conocimiento.
+                </p>
+                    
+        <h3>2.2 Teoría elemental de probabilidad. </h3>
+            <p>
+                asignar un cierto número a cada posible resultado que pueda ocurrir en un experimento aleatorio, con el fin de cuantificar dichos resultados y saber si un suceso
+                es más probable que otro.
+            </p>
 
 
-        <h2>2.3 Probabilidad de Eventos: Definición de espacio muestral, 
+        <h3>2.3 Probabilidad de Eventos: Definición de espacio muestral, 
             definición de evento, simbología, unión, intersección, 
-            diagramas de Venn. </h2>
-            <p>Espacio muestral: es el conjunto de los diferentes resultados que pueden darse en un experimento aleatorio o cuando se realiza un experimento, 
-               que es cualquier proceso que produce un resultado o una observación, se van a obtener un conjunto de valores.
+            diagramas de Venn. </h3>
+            <p>
+                Espacio muestral: es el conjunto de los diferentes resultados que pueden darse en un experimento aleatorio o cuando se realiza un experimento, 
+                que es cualquier proceso que produce un resultado o una observación, se van a obtener un conjunto de valores.
             </p>
             <p>
                 Evento: Un Evento es un resultado particular de un experimento aleatorio. En términos de conjuntos, un evento es un subconjunto del espacio muestral. 
@@ -198,23 +286,23 @@
             </p>
             <p>
                 Simbología:
-                1. A, B, C…= conjuntos.
-                2. a ,b ,c…= elementos de conjuntos
-                3. U= unión de conjuntos
-                4. ∩= intersección de conjuntos
-                5. A‟= complemento de un conjunto
-                6. / = dado que
-                7. \ = diferencia
-                8. <>= diferente de
-                9. (Ø )= Conjunto nulo o vacío
-                10. R= conjunto de los números reales
-                11. N= conjunto de los números naturales
-                12. C= conjunto de los números complejos
-                13. n!= factorial de un numero entero positivo
-                14. Q= conjunto de los números fraccionarios
-                15. I= conjunto de los números irracionales
-                16. c= subconjuntos
-                17.- { }= llaves.
+                <li> A, B, C…= conjuntos.</li>
+                <li>a ,b ,c…= elementos de conjuntos</li>
+                <li> U= unión de conjuntos</li>
+                <li> ∩= intersección de conjuntos</li>
+                <li>A‟= complemento de un conjunto</li>
+                <li> / = dado que</li>
+                <li> \ = diferencia</li>
+                <li> <>= diferente de</li>
+                <li>(Ø )= Conjunto nulo o vacío</li>
+                <li> R= conjunto de los números reales</li>
+                <li>N= conjunto de los números naturales</li>
+                <li> C= conjunto de los números complejos</li>
+                <li> n!= factorial de un numero entero positivo</li>
+                <li> Q= conjunto de los números fraccionarios</li>
+                <li> I= conjunto de los números irracionales</li>
+                <li> c= subconjuntos</li>
+                <li> { }= llaves.</li>
             </p>
             <p>
                 Unión: La unión de dos eventos A y B, denotados por A B y leídos “A o B”, es el evento que consiste en todos los resultados que están en A o en B o 
@@ -230,7 +318,7 @@
                 representa al conjunto universal (U).
             </p>
 
-        <h2>2.4 Probabilidad con Técnicas de Conteo: Axiomas, Teoremas. </h2>
+        <h3>2.4 Probabilidad con Técnicas de Conteo: Axiomas, Teoremas. </h3>
             <p>
                 Los  axiomas  de  probabilidad  son  las  condiciones  mínimas  que  deben  verificarse  para  que  unafunción  definida  sobre  un  conjunto  de  sucesos  
                 determine  consistentemente  sus  probabilidades.Fueron formulados por Kolmogórov en 1933.
@@ -255,7 +343,7 @@
                 TEOREMA 5. Para dos eventos A y B, p(AÈB)=p(A) + p(B) – p(AÇB)
             </p>
 
-        <h2>2.5 Probabilidad condicional: Dependiente, Independiente. </h2>
+        <h3>2.5 Probabilidad condicional: Dependiente, Independiente. </h3>
             <p>
                 Dos eventos son independientes si el resultado del segundo evento no es afectado por el resultado del primer evento. Si A y B son eventos independientes, la 
                 probabilidad de que ambos eventos ocurran es el producto de las probabilidades de los eventos individuales.
@@ -268,37 +356,39 @@
                                 P ( A y B ) = P ( A ) · P ( B )
             </p>
 
-        <h2>2.6 Ley multiplicativa. </h2>
+        <h3>2.6 Ley multiplicativa. </h3>
             <p>
                 La regla de la multiplicación o regla del producto, permite encontrar la probabilidad de que ocurra el evento A y el evento B al mismo tiempo (probabilidad conjunta). 
                 Esta regla depende de si los eventos son dependientes o independientes.
 
             </p>
-        <h2>2.7 Eventos independientes: Regla de Bayes. </h2>
+        <h3>2.7 Eventos independientes: Regla de Bayes. </h3>
             <p>
                 El Teorema de Bayes, permite calcular una probabilidad de un suceso F, a partir de lo ocurrido en el suceso E. Este tipo de teorema usualmente es aplicable a las 
                 áreas de control de calidad, para conocer las probabilidades de defectuosidad o no defectuosidad.
             </p>            
-  </body>
 
 
-  <body>
-    <h1>Tema 3 Variables Aleatorias.</h1>
-        <h2>3.1 Variables aleatorias discretas:</h2>
-            <h3>3.1.1 Distribución de probabilidad en forma general</h3>
+      <!-- Aquí se agregará el contenido de los subtemas de Fundamentos de Probabilidad -->
+    </section>
+
+    <section id="variables-aleatorias">
+      <h2>Variables Aleatorias</h2>
+        <h3>3.1 Variables aleatorias discretas:</h3>
+            <h4>3.1.1 Distribución de probabilidad en forma general</h4>
                 <p>
                     En teoría de la probabilidad y estadística, la distribución de probabilidad de una variable aleatoria es una función que asigna a cada suceso definido sobre la variable, 
                     la probabilidad de que dicho suceso ocurra. La distribución de probabilidad está definida sobre el conjunto de todos los sucesos y cada uno de los sucesos es el rango de 
                     valores de la variable aleatoria. También puede decirse que tiene una relación estrecha con las distribuciones de frecuencia.
                 </p>
 
-            <h3>3.1.2. Valor esperado</h3>
+            <h4>3.1.2. Valor esperado</h4>
                 <p>
                     El valor esperado de una variable aleatoria de valor real da una medida del centro de la distribución de la variable. Más importante aún, al tomar el valor esperado de 
                     varias funciones de una variable aleatoria general, podemos medir muchas características interesantes de su distribución, incluyendo propagación, asimetría, curtosis y correlación.
                 </p>
 
-            <h3>3.1.3 Varianza y desviación estándar</h3>
+            <h4>3.1.3 Varianza y desviación estándar</h4>
                 <p>
                     La varianza y la desviación estándar indican si los valores se encuentran más o menos próximos a las medidas de posición.
 
@@ -308,42 +398,103 @@
 
                 </p>
 
-            <h3>3.1.4 Función acumulada</h3>
+            <h4>3.1.4 Función acumulada</h4>
                 <p>
                     La función de distribución acumulativa es la función que para un valor x, nos da la probabilidad de que la variable aleatoria sea menor o igual que dicho valor x. La función de distribución 
                     acumulativa de la variable aleatoria X es la función F(x) = P(X ≤ x). Como aún quedan muchas dudas, mejor veamos algunos ejemplos y ejercicios.
                 </p>
 
 
-        <h2>3.2 Variables aleatorias Continuas:</h2>
-            <h3>3.2.1  Distribución de probabilidad en formula general</h3>
+        <h3>3.2 Variables aleatorias Continuas:</h3>
+            <h4>3.2.1  Distribución de probabilidad en formula general</h4>
                 <p>
                     Una variable aleatoria continua es aquella que puede tomar cualquier valor dentro de un intervalo. Su distribución de probabilidad se describe mediante una función de densidad de probabilidad 
                     f(x), la cual indica la probabilidad de que la variable aleatoria tome un valor específico.
                 </p>
 
-            <h3>3.2.2 valor esperado</h3>
+            <h4>3.2.2 valor esperado</h4>
                 <p>
                     El valor esperado de una variable aleatoria continua X, denotado como E[X], representa el promedio o centro de gravedad de la distribución. Se calcula integrando el producto de x y la función 
                     de densidad f(x) sobre todo el dominio de X.
                 </p>
 
-            <h3>3.2.3 Varianza, desviación estandar</h3>
+            <h4>3.2.3 Varianza, desviación estandar</h4>
                 <p>
                     La variancia de X, denotada como Var(X), mide cuánto se dispersan los valores de X alrededor de su valor esperado. Se calcula integrando el cuadrado de la diferencia entre x y E[X], ponderado por f(x). 
                     La desviación estándar es simplemente la raíz cuadrada de la variancia.
                 </p>
 
-            <h3>3.2.4 Función acumulada</h3>
+            <h4>3.2.4 Función acumulada</h4>
                 <p>
                     La función de distribución acumulada F(x) de una variable aleatoria continua X representa la probabilidad de que X tome un valor menor o igual a x. Se calcula integrando la función de densidad f(x) 
                     desde menos infinito hasta x.
                 </p>
 
-            <h3>3.2.5 Calculos de probabilidad</h3>
+            <h4>3.2.5 Calculos de probabilidad</h4>
                 <p>
                     Con la función de densidad f(x) y la función de distribución acumulada F(x), es posible calcular diversas probabilidades de interés, como P(a < X < b), P(X > a), P(X ≤ a), entre otras. Estos cálculos 
                     se realizan mediante integración o mediante el uso de tablas y funciones de distribución estándar.
                 </p>
-  </body>
-</html> 
+            <!-- Aquí se agregará el contenido de los subtemas de Variables Aleatorias -->
+    </section>
+
+    <section id="distribuciones-probabilidad">
+      <h2>Distribuciones de Probabilidad</h2>
+        <h3>4.1 Función de la probabilidad</h3>
+            <p>
+                Describe una variable casual tome forma y valor a una valor determinado. Matemáticamente es una base que oculta las distribuciones de probabilidad.
+            </p>
+        
+        <h3>4.2 distribución binomial</h3>
+            <p>
+                Explica el patrón de éxitos numéricos en una serie de ensayos autónomos donde cada uno de los análisis va teniendo dos posibles efectos una variable de progreso o fracaso o una probabilidad de logro inmutable.
+            </p>
+        
+        <h3>4.3 Distribución hipergeometrica</h3>
+            <p>
+                Aplica cuando obtenemos un modelo de muestra sin intercambio de población limitada. Diseña el número total de logros de un modelo aleatorio sin sustituir a la comunidad. 
+            </p>
+
+        <h3>4.4 Distribución de Poisson</h3>
+            <p>
+                Representa el número de activación que ocurren en un cierto periodo de tiempo o ambiente único siendo al momento que estos eventos de manera insular y a una tasa continua.
+            </p>
+
+        <h3>4.5 Distribución Normal</h3>
+            <p>
+                También conocida como campana de Gauss o Curva normal, es una de las distribución de probabilidad más detalladas y de suma importancia utilizadas en un espectro amplio caracterizándose por dos criterios: Media y Desviación estándar.
+            </p>
+
+        <h3>4.6 Distribución T-student</h3>
+            <p>
+                Es empleado cuando hay funciones con pruebas pequeñas y se desconoce la desviación estándar de la población. Es homólogo a la distribución normal pero con colas más anchas.
+            </p>
+
+        <h3>4.7 Distribución Chi cuadrado </h3>
+            <p>
+                Es empleado para modelar la suma de cuadrados de variables casuales normales estándares independientes. Se utiliza con ensayos de bondad de ajuste y en montajes de intervalos de confianza.
+            </p>
+
+        <h3>4.8 Distribución F </h3>
+            <p>
+                Se usa en análisis de varianza (ANOVA) evaluando y dando comprobaciones de las varianzas de dos grupos diferentes. Se basa en la relación entre dos variables aleatorias Chi cuadrada que son independientes entre sí.
+            </p>
+      <!-- Aquí se agregará el contenido de los subtemas de Distribuciones de Probabilidad -->
+    </section>
+
+    <section id="regresion-lineal">
+      <h2>Regresión Lineal</h2>
+      <!-- Aquí se agregará el contenido de los subtemas de Regresión Lineal -->
+    </section>
+
+    <section id="estadistica-aplicada">
+      <h2>Estadística Aplicada</h2>
+      <!-- Aquí se agregará el contenido de los subtemas de Estadística Aplicada -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Rodríguez Hernández Ivan Yazeth, Verano 2024 Probabilidad y Estadística.</p>
+  </footer>
+</body>
+</html>
