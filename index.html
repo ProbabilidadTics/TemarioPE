@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Probabilidad y Estadística</title>
   <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
   <header>
@@ -437,9 +438,9 @@
             <p>
                 Explica el patrón de éxitos numéricos en una serie de ensayos autónomos donde cada uno de los análisis va teniendo dos posibles efectos una variable de progreso o fracaso o una probabilidad de logro inmutable.
             </p>
-            <div class="formula">
+            <div class=".formula">
                 <math>
-                  <mi>Fórmula de la distribución binomial:</mi>
+                  <mi>Fórmula de la distribución binomial: </mi>
                   <mi>P</mi><Mo>(</Mo><mi>X</mi><mo>=</mo><mi>k</mi><Mo>)</Mo><mo>=</mo>
                   <mfrac>
                     <msup><mi>n</mi><mi>k</mi></msup>
@@ -454,37 +455,40 @@
             <p>
                 Aplica cuando obtenemos un modelo de muestra sin intercambio de población limitada. Diseña el número total de logros de un modelo aleatorio sin sustituir a la comunidad. 
             </p>
-            <div class="formula">
-                <math>
-                  <mi>P</mi><Mo>(</Mo><mi>X</mi><mo>=</mo><mi>x</mi><Mo>)</Mo><mo>=</mo><mfrac>
-                    <mrow>
-                      <mfrac>
-                        <msup><mi>M</mi><mi>x</mi></msup>
-                        <mi>x</mi><mo>!</mo>
-                      </mfrac><mfrac>
-                        <msup><mi>N</mi><mrow><mi>n</mi><mo>-</mo><mi>x</mi></mrow></msup>
-                        <mrow><mi>n</mi><mo>-</mo><mi>x</mi><mo>!</mo></mrow>
-                      </mfrac>
-                    </mrow>
-                    <mfrac>
-                      <msup><mi>N</mi><mi>n</mi></msup>
-                      <mi>n</mi><mo>!</mo>
-                    </mfrac>
-                  </mfrac>
-                </math>
+            <div class=".formula-container">
+                <div class=".formulahip">
+                  <span>P(X = k) = </span>
+                  <div class=".fraction">
+                    <div class=".numerator">
+                      <span>
+                        <span class=".binomial">C</span><sub>K</sub><sub>k</sub>
+                      </span>
+                      <span>
+                        <span class=".binomial">C</span><sub>N-K</sub><sub>n-k</sub>
+                      </span>
+                    </div>
+                    <div class=".denominator">
+                      <span>
+                        <span class=".binomial">C</span><sub>N</sub><sub>n</sub>
+                      </span>
+                    </div>
+                  </div>
+                </div>
               </div>
 
         <h3>4.4 Distribución de Poisson</h3>
             <p>
                 Representa el número de activación que ocurren en un cierto periodo de tiempo o ambiente único siendo al momento que estos eventos de manera insular y a una tasa continua.
             </p>
-            <div class="formula">
+            <div class=".formulaPoisson">
                 <math>
-                  <mi>P</mi><Mo>(</Mo><mi>X</mi><mo>=</mo><mi>x</mi><Mo>)</Mo><mo>=</mo><mfrac>
+                  <mi>P</mi><Mo>(</Mo><mi>k</mi><mo>;</mo><mi>&#955;</mi><Mo>)</Mo><mo>=</mo>
+                  <mfrac>
                     <mrow>
-                      <msup><mi>e</mi><mrow><mo>-</mo><mi>&#955;</mi></mrow></msup><msup><mi>&#955;</mi><mi>x</mi></msup>
+                      <msup><mi>e</mi><mrow><mo>-</mo><mi>&#955;</mi></mrow></msup>
+                      <msup><mi>&#955;</mi><mi>k</mi></msup>
                     </mrow>
-                    <mi>x</mi><mo>!</mo>
+                    <mi>k</mi><mo>!</mo>
                   </mfrac>
                 </math>
               </div>
