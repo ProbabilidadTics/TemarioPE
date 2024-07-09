@@ -183,3 +183,19 @@
     display: inline-block;
     margin: 0 10px;
   }
+
+
+  button {
+    background-color: #6fbeff; /* Color de fondo verde */
+    border: none;
+    color: white; /* Color de texto blanco */
+    padding: 10px 20px; /* Espacio interno del botón */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    display: block; /* Convierte el botón en un elemento de bloque */
+    margin-left: auto; /* Alinea el botón a la derecha */
+    border-radius: 20px; /* Crea la forma de burbuja */
+  }
