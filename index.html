@@ -8,6 +8,7 @@
   
 </head>
 <body>
+
   <header>
     <h1>Probabilidad y Estadística</h1>
     <nav>
@@ -18,6 +19,8 @@
         <li><a href="#distribuciones-probabilidad">Distribuciones de Probabilidad</a></li>
         <li><a href="#regresion-lineal">Regresión Lineal</a></li>
         <li><a href="#estadistica-aplicada">Estadística Aplicada</a></li>
+        <li><a href="#videos">Videos de los temas 3 y 4</a></li>
+        <li><a href="#notebookss">Notebooks</a></li>
       </ul>
     </nav>
 
@@ -396,7 +399,6 @@
                     La función de distribución acumulativa es la función que para un valor x, nos da la probabilidad de que la variable aleatoria sea menor o igual que dicho valor x. La función de distribución 
                     acumulativa de la variable aleatoria X es la función F(x) = P(X ≤ x). Como aún quedan muchas dudas, mejor veamos algunos ejemplos y ejercicios.
                 </p>
-                    <a href = "https://youtu.be/1ZIKkPgmink?si=DzKE1UzpIoAYvK1n">Video Variables Aleatorias Discretas</a>
 
 
         <h3>3.2 Variables Aleatorias Continuas:</h3>
@@ -429,7 +431,7 @@
                     Con la función de densidad f(x) y la función de distribución acumulada F(x), es posible calcular diversas probabilidades de interés, como P(a < X < b), P(X > a), P(X ≤ a), entre otras. Estos cálculos 
                     se realizan mediante integración o mediante el uso de tablas y funciones de distribución estándar.
                 </p>
-                    <a href = "https://youtu.be/ubkqVhMmXF0?si=gTFvWKCxK1j8vkgS">Video Variables Aleatorias Continuas</a>
+                    
     </section>
 
     <section id="distribuciones-probabilidad">
@@ -443,23 +445,53 @@
             <p>
                 Explica el patrón de éxitos numéricos en una serie de ensayos autónomos donde cada uno de los análisis va teniendo dos posibles efectos una variable de progreso o fracaso o una probabilidad de logro inmutable.
             </p>
-                <a href="https://youtu.be/FUWkQhXgQoU?si=R-M4Yv-AM8gwo5NQ">Video Ejercicio Distribucion Binomial</a>
+            <bodyb>
+                <div class="formulab">
+                  P(X = x) = C(n, x) * p^x * (1-p)^(n-x)
+                </div>
+                <div class="variablesb">
+                  <div class="variableb">
+                    <span>n</span> = Número de ensayos
+                  </div>
+                  <div class="variableb">
+                    <span>x</span> = Número de éxitos
+                  </div>
+                  <div class="variableb">
+                    <span>p</span> = Probabilidad de éxito en cada ensayo
+                  </div>
+                  <div class="variableb">
+                    <span>C(n, x)</span> = Coeficiente binomial
+                  </div>
+                </div>
+              </bodyb>
+               
         
         <h3>4.3 Distribución hipergeometrica</h3>
             <p>
                 Aplica cuando obtenemos un modelo de muestra sin intercambio de población limitada. Diseña el número total de logros de un modelo aleatorio sin sustituir a la comunidad. 
             </p>
-            <p>La fórmula para calcular la probabilidad de obtener <em>k</em> éxitos en <em>n</em> ensayos es:</p>
-
-            <p>P(X = k) = \frac{C(K, k) \cdot C(N-K, n-k)}{C(N, n)}</p>
-            
-            <p>Donde:</p>
-            <ul>
-              <li><em>N</em> es el tamaño de la población</li>
-              <li><em>K</em> es el número de elementos "éxito" en la población</li>
-              <li><em>n</em> es el número de ensayos</li>
-              <li><em>k</em> es el número de éxitos obtenidos en los <em>n</em> ensayos</li>
-            </ul>
+            <bodyg>
+                <div class="formulag">
+                  P(X = x) = (C(M, x) * C(N-M, n-x)) / C(N, n)
+                </div>
+                <div class="variablesg">
+                  <div class="variableg">
+                    <span>N</span> = Tamaño de la población
+                  </div>
+                  <div class="variableg">
+                    <span>M</span> = Número de elementos de éxito en la población
+                  </div>
+                  <div class="variableg">
+                    <span>n</span> = Tamaño de la muestra
+                  </div>
+                  <div class="variableg">
+                    <span>x</span> = Número de éxitos en la muestra
+                  </div>
+                  <div class="variableg">
+                    <span>C(a, b)</span> = Coeficiente binomial
+                  </div>
+                </div>
+              </bodyg>
 
            
 
@@ -467,7 +499,25 @@
             <p>
                 Representa el número de activación que ocurren en un cierto periodo de tiempo o ambiente único siendo al momento que estos eventos de manera insular y a una tasa continua.
             </p>
-            
+            <bodyi>
+                <div class="formulai">
+                  P(X = x) = (e^(-λ) * λ^x) / x!
+                </div>
+                <div class="variablesi">
+                  <div class="variablei">
+                    <span>λ</span> = Tasa media de ocurrencia
+                  </div>
+                  <div class="variablei">
+                    <span>x</span> = Número de eventos
+                  </div>
+                  <div class="variablei">
+                    <span>e</span> = Constante de Euler (2.718281828459045)
+                  </div>
+                  <div class="variablei">
+                    <span>!</span> = Factorial
+                  </div>
+                </div>
+              </bodyi>
 
         <h3>4.5 Distribución Normal</h3>
             <p>
@@ -552,7 +602,24 @@
 
     <section id="estadistica-aplicada">
       <h2>Estadística Aplicada</h2>
-      <!-- Aquí se agregará el contenido de los subtemas de Estadística Aplicada -->
+      
+    </section>
+
+    <section id="videos">
+        <h2>Videos</h2>
+        <h3>Tema 3</h3>
+        <li><a href = "https://youtu.be/1ZIKkPgmink?si=DzKE1UzpIoAYvK1n">Video Variables Aleatorias Discretas</a></li>
+        <li><a href = "https://youtu.be/ubkqVhMmXF0?si=gTFvWKCxK1j8vkgS">Video Variables Aleatorias Continuas</a></li>
+        <h3>Tema 4</h3>
+        <li><a href="https://youtu.be/FUWkQhXgQoU?si=R-M4Yv-AM8gwo5NQ">Video Ejercicio Distribucion Binomial</a></li>
+    </section>
+
+    <section id ="notebookss">
+        <h2>Notebooks</h2>
+        <h3>Tema 1</h3>
+            <li><a href="http://127.0.0.1:5500/DatosAgrupados.html">Tablas de Frecuencia</a></li>
+        <h3>Tema 2</h3>
+            <li><a href = "http://127.0.0.1:5500/Ejercicios_libro.html">Ejercicios del 9 al 17</a></li>
     </section>
   </main>
 

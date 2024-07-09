@@ -25,6 +25,28 @@
     color: var(--color-blanco);
     padding: 20px;
   }
+  header {
+    position: sticky;
+    top: 0;
+   
+    z-index: 1;
+    padding: 1rem 0;
+  }
+ 
+  nav button {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background-color: #ddd;
+  }
   
   nav ul {
     list-style-type: none;
@@ -90,4 +112,74 @@
     padding: 10px;
   }
 
+
+  /*binomial*/
+  body b {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px 0;
+  }
   
+  .formulab {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .variablesb {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .variableb {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+
+  /*hipergeometrica*/
+  body g{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .formulag {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .variablesg {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .variableg {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+
+  /*Poisson*/
+  body i{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .formulai {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .variablesi {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .variablei {
+    display: inline-block;
+    margin: 0 10px;
+  }
