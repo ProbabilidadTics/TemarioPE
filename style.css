@@ -1,93 +1,91 @@
 /* Paleta de colores */
 :root {
-    --color-primario: #2196F3; /* Azul */
-    --color-secundario: #7bc3fd; /* Azul claro */
-    --color-terciario: #bddef7; /* Azul muy claro */
-    --color-gris: #BDBDBD; /* Gris */
-    --color-blanco: #FFFFFF; /* Blanco */
-    --color-texto: #3c3d3d; /*Negro*/
-    --color-h2: #078dfa;
-    --color-h3: #43a9fd;
-    --color-h4: #6fbeff;
-  }
-  
-  /* Estilos generales */
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: var(--color-terciario);
-  }
-  
-  /* Encabezado */
-  header {
-    background-color: var(--color-primario);
-    color: var(--color-blanco);
-    padding: 20px;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-  }
-  
-  nav li {
-    margin: 0 10px;
-  }
-  
-  nav a {
-    color: var(--color-blanco);
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    color: var(--color-secundario);
-  }
-  
-  /* Contenido principal */
-  main {
-    padding: 20px;
-  }
-  
-  section {
-    background-color: var(--color-blanco);
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    width: 80%;
-    max-width: 800px;
-    margin: 20px auto;
-  }
-  
-  h2 {
-    color: var(--color-h2);
-  }
+  --color-primario: #2196F3; /* Azul */
+  --color-secundario: #7bc3fd; /* Azul claro */
+  --color-terciario: #bddef7; /* Azul muy claro */
+  --color-gris: #BDBDBD; /* Gris */
+  --color-blanco: #FFFFFF; /* Blanco */
+  --color-texto: #3c3d3d; /*Negro*/
+  --color-h2: #078dfa;
+  --color-h3: #43a9fd;
+  --color-h4: #6fbeff;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: var(--color-primario);
+  color: var(--color-blanco);
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: var(--color-blanco);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--color-secundario);
+}
+
+/* Contenido principal */
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: var(--color-blanco);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+h2 {
+  color: var(--color-h2);
+}
 
 
-  /*subtitulos*/
-  h3 {
-    color: var(--color-h3);
-  }
+/*subtitulos*/
+h3 {
+  color: var(--color-h3);
+}
 
-  h4 {
-    color: var(--color-h4);
-  }
+h4 {
+  color: var(--color-h4);
+}
 
-  p {
-    text-align: justify;
-    word-spacing: 0.1em;
-    letter-spacing: 0.05em;
-    color: var(--color-texto);
-  }
+p {
+  text-align: justify;
+  word-spacing: 0.1em;
+  letter-spacing: 0.05em;
+  color: var(--color-texto);
+}
 
-  /* Pie de página */
-  footer {
-    background-color: var(--color-gris);
-    color: var(--color-blanco);
-    text-align: center;
-    padding: 10px;
-  }
+/* Pie de pÃ¡gina */
+footer {
+  background-color: var(--color-gris);
+  color: var(--color-blanco);
+  text-align: center;
+  padding: 10px;
+}
 
-  
